@@ -1,7 +1,5 @@
 package com.denofprogramming.controller;
-
  javax.inject.Inject;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.log4j.Logger;
@@ -37,13 +35,13 @@ import com.denofprogramming.random.RandomGenerator;
 @Controller
 public class IdentifierGenerationController 
 	
-	// Using the slf4j api directly - remove comments from this code only after SLF4J dependencies are added, see tutorials. 
+{	// Using the slf4j api directly - remove comments from this code only after SLF4J dependencies are added, see tutorials. 
 	// private static final Logger logger = LoggerFactory.getLogger(IdentifierGenerationController.class);
 
 	// using the log4j api, jar provided by our specific dependency
 	private static final Logger logger = Logger
 			.getLogger("com.denofprogramming.controller.IdentifierGenerationController");
-
+}
 	// using the JCL api, jar provided by transient dependency via spring-core
 	private Log log = LogFactory.getLog(IdentifierGenerationController.class);
 
