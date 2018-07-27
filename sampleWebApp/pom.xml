@@ -48,7 +48,7 @@ Also show cases the 'Simple Logging Framework - slf4j'.</description>
 			<plugin>
 			<groupId>org.jacoco</groupId>
 			<artifactId>jacoco-maven-plugin</artifactId>
-			<version>${jacoco.version}</version>
+			<version>0.8.1</version>
 			<executions>
 				<execution>
 					<goals>
